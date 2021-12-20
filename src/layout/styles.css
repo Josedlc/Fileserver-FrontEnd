@@ -1,0 +1,142 @@
+.restaurant-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loader-container p {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.restaurant-header {
+  height: 100px;
+  width: 90%;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.restaurant-logo {
+  padding: 30px;
+  height: 100px;
+  width: auto;
+}
+
+.footer-logo {
+  height: 100px;
+  width: auto;
+}
+.restaurant-firstMenu {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.dogc-save {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.restaurant-secondMenu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.restaurant-firstMenu li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+.restaurant-firstMenu li a {
+  color: black;
+}
+
+.restaurant-secondMenu li {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.restaurant-content {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.restaurant-footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.footer-greyList {
+  text-align: left;
+  font-size: 1.2rem;
+  list-style: none;
+  font-weight: 600;
+  color: #c4c4c4;
+}
+
+.footer-greyList li {
+  margin: 10px 0;
+}
+
+.social-media-logo {
+  width: 32px;
+  height: 32px;
+  margin: 40px;
+}
+
+.footer-second-greyList {
+  text-align: left;
+  list-style: none;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-second-greyList li {
+  margin: 10px 0;
+}
+
+.footer-rights {
+  text-align: left;
+  list-style: none;
+  font-weight: 600;
+  color: white;
+}
